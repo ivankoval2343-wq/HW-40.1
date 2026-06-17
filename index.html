@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практичні завдання</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     Завдання A
+    <section class="section">
+        <h2>Завдання A: Картка-візитка</h2>
+        <div class="business-card">
+            <h3>Dexter Morgan</h3>
+            <p>Serial killer & policeman</p>
+        </div>
+    </section>
+
+     Завдання B
+    <section class="section">
+        <h2>Завдання B: Галерея (Flexbox)</h2>
+        <div class="gallery">
+            <div class="gallery-item" style="background-image: url('https://picsum.photos/300/200?random=1');"></div>
+            <div class="gallery-item" style="background-image: url('https://picsum.photos/300/200?random=2');"></div>
+            <div class="gallery-item" style="background-image: url('https://picsum.photos/300/200?random=3');"></div>
+        </div>
+    </section>
+
+    Завдання C
+    <section class="section">
+        <h2>Завдання C: Картка портфоліо</h2>
+        <div class="portfolio-card" style="background-image: url('https://picsum.photos/350/250?random=4');">
+            <div class="overlay">
+                <h3>Назва проекту</h3>
+                <p>Короткий опис крутого веб-сайту.</p>
+                <button class="btn-view" id="openModalBtn">Переглянути</button>
+            </div>
+        </div>
+    </section>
+
+     Завдання D
+    <div class="modal-backdrop" id="modalBackdrop">
+        <div class="modal">
+            <button class="modal-close" id="closeModalBtn">&times;</button>
+            <div class="modal-content">
+                <img src="https://picsum.photos/350/250?random=4" alt="Товар" class="modal-img">
+                <div class="modal-info">
+                    <h3>Назва проекту / Товар</h3>
+                    <p class="modal-price">1 500 ₴</p>
+                    <p class="modal-desc">Це детальний опис проекту або товару. Тут розповідається про всі переваги та особливості використання.</p>
+                    <button class="btn-buy">Додати в кошик</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
